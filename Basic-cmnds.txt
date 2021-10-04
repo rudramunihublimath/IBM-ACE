@@ -123,7 +123,9 @@ mqsisetdbparms {BROKERNAME} -n email::{SeuID} -u {emailid} -p {Password};
 
 Command to give security for JDBC Configurable Service
 mqsisetdbparms {BROKERNAME} -n jdbc::{SeuID} -u {SchemaName} -p {Password};
- 
+
+For Integration server :
+mqsisetdbparms -w "D:\ACE WKS\workspace1\TEST_SERVER" -n jdbc::secJDBC_ORACLE -u RPH -p admin
 ----------------------------------------------------------
 
 MONITORING COMMANDS:

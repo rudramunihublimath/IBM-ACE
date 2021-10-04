@@ -3,6 +3,7 @@
 	<name>XML_to_JSON_App</name>
 	<comment></comment>
 	<projects>
+		<project>MyPolicies</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
